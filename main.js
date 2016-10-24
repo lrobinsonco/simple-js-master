@@ -15,20 +15,21 @@ document.getElementById("action1-btn").addEventListener("click", function(){
 
 
 // Use JS to add an h2 into 'heading2' with button click.
-// The HTML has been created, this is your chance to add JS. 
+// The HTML has been created, this is your chance to add JS.
+document.getElementById("header2-btn").addEventListener("click", function(){
+    document.getElementById("header2-message").innerHTML = "This the second Header!";
+});
+
+
+
+
+// Create 3 examples of JS being added to the HTML page immediately.
+// You'll need to create both the HTML and JS for this.
 
 
 
 
 
-// Create 3 examples of JS being added to the HTML page immediately. 
-// You'll need to create both the HTML and JS for this. 
 
-
-
-
-
-
-// Create 3 examples of JS being added to the HTML page based on button clicks. 
-// You'll need to create both the HTML and JS for this. 
-
+// Create 3 examples of JS being added to the HTML page based on button clicks.
+// You'll need to create both the HTML and JS for this.
